@@ -1,0 +1,5 @@
+import type { Metadata } from "next";
+export const metadata: Metadata = { title: "Help Centre" };
+export default function HelpPage() {
+  return <article className="page-heading" style={{ maxWidth: 920, lineHeight: 1.8 }}><h1>Help Centre</h1><p>Support for watching on SilaFlix.</p><section style={{ marginTop: 28 }}><h2>Watching</h2><p>Choose a title and select Watch free. If a stream does not load, check your internet connection and try again shortly.</p></section><section style={{ marginTop: 24 }}><h2>Watchlist and progress</h2><p>You can save titles and playback progress without signing in. This information is stored in this browser on this device; it does not sync across devices. Clearing browser data may remove it.</p></section><section style={{ marginTop: 24 }}><h2>Contact</h2><p>For help, email <a className="text-link" href="mailto:silatrix22@gmail.com">silatrix22@gmail.com</a> or message us on <a className="text-link" href="https://wa.me/255789661031">WhatsApp at +255 789 661 031</a>.</p></section></article>;
+}

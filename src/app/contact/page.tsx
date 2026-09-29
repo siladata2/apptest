@@ -1,0 +1,3 @@
+import type { Metadata } from "next";
+export const metadata: Metadata = { title: "Contact" };
+export default function ContactPage() { return <article className="page-heading" style={{maxWidth:760,lineHeight:1.8}}><h1>Contact SilaFlix</h1><p>For questions, content rights notices, or account help, contact the owner:</p><div className="auth-card" style={{display:"grid",gap:12,marginTop:18}}><a className="text-link" href="mailto:silatrix22@gmail.com">Email: silatrix22@gmail.com</a><a className="text-link" href="https://wa.me/255789661031" target="_blank" rel="noreferrer">WhatsApp: +255 789 661 031</a><a className="text-link" href="https://whatsapp.com/channel/0029VbBG4gfISTkCpKxyMH02" target="_blank" rel="noreferrer">WhatsApp Channel</a></div></article>; }
